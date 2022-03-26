@@ -1,0 +1,442 @@
+.mr-2{
+    margin-right: 5px;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #367FA9;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.bg-lime-active {
+    background-color: #7ebf3c !important;
+}
+.btn_reset {
+
+}
+.main-header .logo {
+    font-family: 'Cairo', sans-serif !important;
+}
+.main-header .logo .logo-lg {
+    font-size: 16px;
+    font-weight: normal;
+}
+.main-header .logo .logo-lg b{
+    color: #dbf8ff;
+    font-size: 20px;
+
+}
+
+
+.content-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.alert{
+    color: #263238;
+    border: none;
+}
+.expiration_msg {
+    margin-bottom: 0;
+}
+.alert-warning{
+    background-color: #ffeabb !important;
+    color: #333 !important;
+}
+.alert-danger:not(.expiration_msg){
+    background-color: #FCE4EC !important;
+    color: #333 !important;
+}
+.form-control {
+    height: 40px !important;
+    font-weight: normal !important;
+}
+.form-control:read-only {
+    outline: none !important;
+    background-color: #f7f7f7 !important;
+}
+
+textarea.form-control {
+    height: 60px !important;
+}
+.required_field_star {
+    color: red;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+.table_actions{
+    white-space: nowrap;
+    min-width: 100px;
+}
+.table_actions .btn{
+    margin-bottom: 3px;
+}
+.box_file .box-header button {
+    float: left;
+    height: 30px;
+}
+.box_file .box-body input[type=file] {
+    display: none;
+}
+
+.table tbody td {
+    font-weight: normal;
+}
+.dataTables_filter, .dataTables_info {
+    display: none;
+}
+.table tbody tr.row_warning td{
+    background-color: #ffe886 !important;
+}
+.table tbody tr.row_danger td{
+    background-color: #ffc2c2 !important;
+}
+.table tbody tr td.td_warning{
+    background-color: #ffe886 !important;
+}
+.table tbody tr td.td_danger{
+    background-color: #ffc2c2 !important;
+}
+
+.content {
+    opacity: 0;
+}
+
+.dataTables_wrapper .col-sm-6 {
+    float: left;
+}
+
+.noty_theme__mint.noty_bar .noty_body {
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.noty_buttons {
+    text-align: center;
+}
+.noty_buttons .mr-2:first-child{
+    margin-left: 10px;
+}
+
+.table .badge {
+    padding: 8px;
+}
+.table .label {
+    line-height: inherit;
+    padding: 3px;
+    display: block;
+}
+
+.td_img img{
+    width: 100px;
+    border-radius: 3px;
+}
+.permissions_td_label {
+    width: 30%;
+}
+.permissions_td_actions label{
+    margin-left: 20px;
+    line-height: 2 !important;
+
+}
+.factor input[type=radio],
+.permissions_td_actions input[type=checkbox]{
+    margin-left: 10px;
+    transform : scale(1.5);
+}
+.factor input[type=radio] {
+    position: relative;
+    top: 5px;
+}
+
+
+.panel .panel-heading .btn,
+.box .box-header .btn {
+    float: left;
+    position: relative;
+    top: -5px;
+}
+
+.panel-primary {
+    border-color: #92bee3;
+}
+.panel-primary>.panel-heading {
+    background-color: #7eb8e9;
+    border-bottom: #92bee3;
+}
+.panel-warning>.panel-heading {
+    color: #8a6d3b;
+    background-color: #ffdea9;
+    border-color: #faebcc;
+}
+.currency {
+    direction: ltr !important;
+    white-space: nowrap;
+    text-align: right;
+}
+.bold {
+    font-weight: bold !important;
+}
+
+.btn-modal-close {
+    float: left;
+}
+.has_small_inputs .panel-heading{
+    padding: 6px;
+}
+
+.has_small_inputs .form-control{
+    height: 34px !important;
+    margin-bottom: 6px;
+}
+.has_small_inputs hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.has_small_inputs .col-sm-3,
+.has_small_inputs .col-sm-4,
+.has_small_inputs .col-sm-5,
+.has_small_inputs .col-sm-6,
+
+.no_cols_padding .col-sm-3,
+.no_cols_padding .col-sm-4,
+.no_cols_padding .col-sm-5
+{
+    padding-left: 0;
+}
+
+.has_small_inputs table tr th,
+.has_small_inputs table tr td {
+    font-size: 14px;
+}
+.has_small_inputs table tfoot tr th .form-control {
+    font-weight: bold !important;
+}
+
+.box-body .thumb_preview {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_actions .btn-group .btn {
+    height: 30px;
+}
+.content-header .btn-group{
+    margin-left: 50px;
+}
+.content-header .btn-group .btn {
+    height: 34px;
+}
+.content-header .btn-group .dropdown-menu li .btn {
+    display: block;
+    width: 100%;
+    border-width: 0;
+    text-align: right;
+}
+.content-header .btn-group .dropdown-menu li .btn:hover {
+    border-width: 1px;
+}
+
+
+.table_actions .btn-group .dropdown-menu>li>a{
+    line-height: 2;
+    border-bottom: 1px solid #ccc;
+}
+.table_actions .btn-group .dropdown-menu>li:last-child>a{
+    border-bottom: none;
+}
+.print_group_no_signature .fa,
+.print_group_no_signature span,
+.print_group_no_signature a
+{
+    color: orangered !important;
+}
+.print_signature_wrap {
+    padding: 3px;
+}
+input[type=checkbox],
+input[type=radio]{
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+}
+
+.checkAllLabel{
+    vertical-align: bottom;
+    line-height: 16px;
+}
+
+.form-control.alert-danger{
+    background-color: #ffc1c0 !important;
+}
+#invoice_bulletins_table tbody tr[extra='1'] td{
+    background-color: #eef9ff;
+}
+
+
+.search_inline input[type=text]{
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7 !important;
+    width: 70%;
+    height: 34px;
+}
+.search_inline select {
+    display: inline !important;
+    width: 70%;
+}
+
+.search_inline input[type=date] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    height: 34px;
+
+}
+
+.search_inline .btn,
+.search_inline input[type=text],
+.search_inline input[type=date],
+.search_inline label,
+.search_inline select {
+    height: 34px;
+    line-height: 34px;
+}
+.search_inline .btn {
+    position: relative;
+    top: -2px;
+}
+
+.content-header .btn-default {
+    background-color: #fff !important;
+}
+
+.accept_price_offer_wrap,
+.deny_price_offer_wrap {
+    display: none;
+}
+
+.row_invoice_infos_bulletins,
+.row_payment_operation_wrap,
+.row_seller_payment_operation_wrap,
+.seller_pay_wrap,
+.last_payment_wrap,
+.supplier_pay_wrap,
+.seller_login_wrap {
+    display: none;
+}
+
+.deductions_advances_table {
+    font-size: 14px;
+}
+
+.deductions_advances_table tbody tr td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.deductions_advances_table tbody tr td .form-control{
+    height: 32px !important;
+}
+.deductions_advances_table tbody tr td:first-child{
+    min-width: 50px !important;
+}
+.deductions_advances_table tbody tr td.td_dt .form-control{
+    width: 160px;
+}
+.deductions_advances_wrap {
+    display: none;
+}
+.deductions_advances_wrap .col-sm-6:last-child {
+    padding-right: 0;
+}
+
+.paie_table {
+    font-size: 14px;
+}
+.paie_table tbody tr td {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.paie_table tbody tr td .form-control{
+    height: 32px !important;
+    width: 80px;
+}
+
+.nb_days_type input[type=radio]{
+    margin-left: 10px;
+    transform : scale(1.5);
+}
+div.dataTables_wrapper div.dataTables_length select {
+    height: 30px !important;
+    padding: 0;
+}
+.contract_seller_wrap {
+    display: none;
+}
+.treeview-menu>li {
+    line-height: 2;
+}
+.threeview_header:after{
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: left;
+    color: #ccc;
+}
+
+.budget_table tr th {
+    line-height: 2 !important;
+}
+
+.budget_total th {
+    background-color: #d1e6f8;
+    line-height: 3 !important;
+    font-size: 16px;
+}
+
+td .pay_ref {
+    margin-bottom: 5px;
+}
+.table-responsive {
+    overflow-y: hidden !important;
+}
+
+@media (max-width: 991px){
+    .main-header .navbar-custom-menu a, .main-header .navbar-right a {
+        color: #000 !important;
+    }
+}
+
+.edit_employee_customer,
+.edit_employee_contract {
+    display: none;
+}
+.contracts_table {
+    padding: 0;
+    margin: 0;
+}
+.contracts_table li {
+    list-style-type: none;
+}
